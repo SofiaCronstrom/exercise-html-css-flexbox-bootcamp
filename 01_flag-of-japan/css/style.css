@@ -4,18 +4,27 @@
 
 body {
     background: #EEE;
-    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 main {
-   
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 800px;
     height: 520px;
-  
+    box-shadow: 10px 5px 5px rgb(207, 207, 207);
 }
 
 aside {
-    
     background: rgb(190, 24, 24);
-   
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+
 }
