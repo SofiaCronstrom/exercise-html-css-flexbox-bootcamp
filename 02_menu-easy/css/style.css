@@ -7,4 +7,23 @@ nav {
     height: 3rem;
     background: #eee;
     display: flex;
+  
+    
+}
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-decoration: none;
+    cursor: pointer;
+    color: #787878;
+    
+}
+nav a:hover{
+    background-color: #787878;
+    color: #eee;
+}
+nav a:active{
+    background-color: rgb(255, 80, 80);
 }
