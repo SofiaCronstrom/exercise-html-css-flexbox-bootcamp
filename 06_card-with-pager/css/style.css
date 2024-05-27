@@ -9,7 +9,7 @@ body {
 }
 
 article.card {
-width: 30%;
+width: 20rem;
 height: 400px;
 background-color: white;
 display: flex;
