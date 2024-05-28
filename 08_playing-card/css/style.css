@@ -8,42 +8,38 @@ body {
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-article.card {
-    width: 260px;
+ 
+article.card{
+    font-size: 3rem;
+    background-color: rgb(227, 227, 227);
+    color:rgb(228, 0, 0);
+    border: 7px solid white;
+    border-radius: 10px;
+    width: 15rem;
     height: 400px;
-    background: #fff;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    border-radius: .5rem;
-    justify-content: space-between;
     align-items: center;
-    font-size: 3rem;
-    border: .5rem solid white;
-    background: #f7f7f7;
-    color: rgb(206, 56, 56);
-    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+    justify-content: space-between;
+    box-shadow: 10px 10px 54px -16px rgba(82, 82, 82, 0.75);
 }
 
-.card aside {
+aside {
     font-size: 1.4rem;
+    color: rgb(228, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-.card aside span {
-    color: #666;
+.top span, .bottom span{
+    color: grey;
 }
-
-.card aside.top {
-    margin: .5rem;
+aside.top{
     align-self: flex-start;
 }
-
-.card aside.bottom {
+aside.bottom {
     transform: rotate(180deg);
-    margin: .5rem;
     align-self: flex-end;
 }
